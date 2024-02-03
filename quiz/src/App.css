@@ -1,0 +1,192 @@
+body {
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+h3 {
+  color: #333; /* Dark gray text */
+  text-align: center;
+  margin-top: 50px; /* Reduced margin-top */
+}
+
+.start {
+  background-color: #3498db; /* Blue button */
+  color: white;
+  width: 180px; /* Slightly reduced width */
+  border-radius: 15px; /* Slightly reduced border-radius */
+  padding: 8px; /* Slightly reduced padding */
+}
+
+.home {
+  margin: 2%; /* Reduced margin */
+  height: 90vh; /* Increased height */
+}
+
+.game {
+  background-color: #fff;
+  width: 75vw; /* Reduced width */
+  height: 70vh; /* Reduced height */
+  padding: 15px; /* Increased padding */
+  margin-top: 3%; /* Reduced margin-top */
+}
+
+h1,
+.question {
+  text-align: center;
+}
+
+.question {
+  margin-top: 30px; /* Reduced margin-top */
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Reduced gap */
+  margin: 80px 20px 10px 20px; /* Adjusted margins */
+}
+
+.option {
+  background-color: #4CAF50; /* Green button */
+  height: 35px; /* Reduced height */
+  border-radius: 15px; /* Slightly reduced border-radius */
+  text-align: center;
+  width: 90%; /* Adjusted width */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 35% 0px 30%; /* Adjusted margins */
+}
+
+.prev,
+.next,
+.quit,
+.finish {
+  border-radius: 10px; /* Slightly reduced border-radius */
+  padding: 8px 12px; /* Adjusted padding */
+}
+
+.prev {
+  background-color: #4682d2; /* Blue button */
+}
+
+.next {
+  background-color: #37cf37; /* Green button */
+}
+
+.quit {
+  background-color: #e74c3c; /* Red button */
+}
+
+.finish {
+  background-color: #9b59b6; /* Purple button */
+}
+
+.result {
+  color: #2ecc71; /* Green text */
+  text-align: center;
+}
+
+.game2 {
+  background-color: #fff;
+  border-left: 5px solid #9556ff; /* Purple border */
+  width: 45vw; /* Adjusted width */
+  height: 45vh; /* Adjusted height */
+  padding: 20px;
+  margin: auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+.blue {
+  color: #3498db; /* Blue text */
+  font-size: 1.6rem; /* Slightly reduced font size */
+  text-align: center;
+  font-weight: bold;
+}
+
+.eachDetail {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 8px; /* Adjusted margins */
+}
+
+.twoBtns {
+  margin: 20px 30%; /* Adjusted margins */
+  display: flex;
+  justify-content: space-between;
+}
+
+.again {
+  background-color: #ccc; /* Light gray button */
+  border-color: #f0f0f0; /* Lighter border color */
+  color: #383838; /* Dark gray text */
+}
+
+.back {
+  color: #008900; /* Green text */
+  border-color: #008900; /* Green border color */
+  background-color: #bbffbb; /* Light green button */
+}
+
+.end {
+  margin-top: 5%; /* Reduced margin-top */
+}
+
+/* Updated CSS */
+.quiz-game {
+  background-color: #fff;
+  width: 75vw;
+  height: 70vh;
+  padding: 15px;
+  margin-top: 3%;
+}
+
+.quiz-option {
+  background-color: #4CAF50;
+  height: 35px;
+  border-radius: 15px;
+  text-align: center;
+  width: 90%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 35% 0px 30%;
+}
+
+.quiz-prev,
+.quiz-next,
+.quiz-quit,
+.quiz-finish {
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+
+.quiz-prev {
+  background-color: #4682d2;
+}
+
+.quiz-next {
+  background-color: #37cf37;
+}
+
+.quiz-quit {
+  background-color: #e74c3c;
+}
+
+.quiz-finish {
+  background-color: #9b59b6;
+}
